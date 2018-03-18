@@ -1,0 +1,8 @@
+{
+  "name": "abvolt_white",
+  "version": "0.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/amcorvi/abvolt_white.git",
+  "author": "AMCorvi <am@corvi.co>",
+  "license": "MIT"
+}
