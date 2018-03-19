@@ -3,7 +3,7 @@ from flask import jsonify
 from ..utils import senseless_print
 
 from ...main import app
-from ...core.database import users
+from ..database import users
 
 
 @app.route('/users/')

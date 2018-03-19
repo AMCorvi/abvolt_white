@@ -9,7 +9,7 @@
     "cz-conventional-changelog": "2.1.0"
   },
   "scripts": {
-    "test": "nodemon --ext .py --watch app/app/**/test*.py --exec green ../abvolt_white ",
+    "test": "nodemon --ext .py --watch app/app/**/*.py app/app/*.py --exec green ../abvolt_white ",
     "commit": "git-cz"
   },
   "repository": {
