@@ -1,8 +1,30 @@
 {
   "name": "abvolt_white",
-  "version": "0.0.0",
-  "main": "main.js",
-  "repository": "https://github.com/amcorvi/abvolt_white.git",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amcorvi/abvolt_white.git"
+  },
   "author": "AMCorvi <am@corvi.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcorvi/abvolt_white/issues"
+  },
+  "homepage": "https://github.com/amcorvi/abvolt_white#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
