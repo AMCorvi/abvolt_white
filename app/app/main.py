@@ -1,8 +1,7 @@
 from flask import Flask
+from .core import app_setup
 
 app = Flask(__name__)
-
-from .core import app_setup
 
 
 if __name__ == "__main__":
